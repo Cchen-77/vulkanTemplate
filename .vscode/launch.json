@@ -1,0 +1,15 @@
+{
+    "configurations": [
+    {
+        "name": "lauch renderer",
+        "type": "cppvsdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/build/main.exe",
+        "args": [],
+        "cwd": "${workspaceFolder}",
+        "environment": [],
+        "preLaunchTask":"buildVulkan",
+        "console": "externalTerminal"
+    }
+    ]
+}

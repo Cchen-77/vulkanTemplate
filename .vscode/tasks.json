@@ -1,0 +1,13 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "buildVulkan",
+            "command": "${workspaceFolder}/vulkanbuild.bat",
+            "group":{
+                "kind": "build",
+                "isDefault": true,
+            },
+        }
+    ]
+}
